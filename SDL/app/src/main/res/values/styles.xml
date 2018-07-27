@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 隐藏状态栏 -->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 隐藏标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="SlideLockDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--  边框 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--  背景透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--  无标题  -->
+        <item name="android:windowIsFloating">true</item>
+        <!--  是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--  半透明  -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--  背景模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--  允许对话框的背景变暗  -->
+        <item name="android:textColor">@color/c_777777</item>
+        <!--  字体颜色 -->
+        <item name="android:editTextColor">@color/c_777777</item>
+        <!--  字体颜色  -->
+    </style>
+
+</resources>
